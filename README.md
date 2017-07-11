@@ -1,5 +1,7 @@
-# MarkGus
-Data Science portfolio
+# Markus Gustavsson!
+Dear visitor,
+
+If you stumbled upon this repository, chances are that you have been lured here by a link on my resume or from my linkedin profile. Here, I stock all my projects in data wrangling, scraping, and mining, together with my analysis' and data imperpretation/visualization. Everything here are my own, and skills that I have learned from various online courses/MOOC's. Enjoy! 
 
 This portfolio will include all data analytics tasks that I have been doing, including notes and codes. 
 
