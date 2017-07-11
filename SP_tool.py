@@ -1,3 +1,11 @@
+# Howdy!
+# Below are my attempt to scrape data from google finance and build a program that'll provide 
+# accurate stock price index flowing to your screen each minute.
+# Data is a bit delayed from server, however works like a charm!
+# To use: Please add stock codes into the 'stocks' list. 
+#
+
+
 import urllib2 	#This limits the program to Python 2.7
 import re
 import json
@@ -5,7 +13,7 @@ import time
 
 stocks= ['aapl', 'goog', 'nflx']
 
-def fetchMarketPrice(stock, ):
+def fetchMarketPrice(stock):
 	link='http://finance.google.com/finance/info?client=ig&q='
 	url = link+"%s" % (stock)
 	u = urllib2.urlopen(url)
